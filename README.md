@@ -10,19 +10,19 @@ In this document, we provide the dataset and the model description.
 In this study, three neural network models, i.e., UNet_ConvLSTM, SCNN_UNet_ConvLSTM, and SCNN_UNet_Attention are tested.
 
 <div align=center>
-<br/><img src='/Figure 1-The framework of the proposed pipeline.png'>  
+<br/><img src='/figure/Figure 1-The framework of the proposed pipeline.png'>  
 Fig. 1. The framework of the proposed pipeline.
    
 </div>
 
 # Some Results
 <div align=center>
-<br/><img src='/Figure 2-Visualization of the reconstructing results in the pre-training phase.png'> 
+<br/><img src='/figure/Figure 2-Visualization of the reconstructing results in the pre-training phase.png'> 
 
 Fig. 2. Visualization of the reconstructing results in the pre-training phase.
 
 
-<br/><img src='/Figure 3-Qualitative visual comparison of the lane detection results testing on tvtLANE.png'> 
+<br/><img src='/figure/Figure 3-Qualitative visual comparison of the lane detection results testing on tvtLANE.png'> 
   
 Fig. 3. Qualitative visual comparison of the lane detection results testing on tvtLANE test set #1 (normal) (A) and tvtLANE test set #2 (challenging) (B). All results in the figure are without post-processing. (a) Original input images; (b) Ground truth; (c)~(l) are the lane detection results corresponding to the models: (c) SegNet, (d) UNet, (e) SegNet_ConvLSTM [1], (f) UNet_ConvLSTM, (g) UNet_ConvLSTM_CE**, (h) UNet_ConvLSTM_PL**, (i) SCNN_SegNet_ConvLSTM [10], (j) SCNN_UNet_ConvLSTM, (k) SCNN_UNet_ConvLSTM_ CE**, (l) SCNN_UNet_ConvLSTM_PL**, (m) SCNN_UNet_Attention_PL**. (Note: CE and PL are short for weighted cross entropy loss and PolyLoss respectively, while ** means the model is pre-trained with the proposed self pre-training method.)
 </div>
