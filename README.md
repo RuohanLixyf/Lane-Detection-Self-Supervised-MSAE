@@ -94,13 +94,21 @@ The quantitative evaluations of Accuracy, Precision, Recall and  F1 measure woul
 # Citation:
 Please cite our paper if you use this code or data in your own work:
 @ARTICLE{10226453,
+
   author={Li, Ruohan and Dong, Yongqi},
+  
   journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  
   title={Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss}, 
+  
   year={2023},
+  
   volume={24},
+  
   number={12},
+  
   pages={14121-14132},
+  
   doi={10.1109/TITS.2023.3305015}}
 
 # Copy Right:
