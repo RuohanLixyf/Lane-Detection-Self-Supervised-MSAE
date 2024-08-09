@@ -10,12 +10,13 @@ In this study, three neural network models, i.e., UNet_ConvLSTM, SCNN_UNet_ConvL
 <div align=center>
 <br/><img src='/Figure 1-The framework of the proposed pipeline.png'>     
 Fig. 1. The framework of the proposed pipeline.
- 
-# Some Results
 
+
+# Some Results
 <div align=center>
 <br/><img src='/Figure 2-Visualization of the reconstructing results in the pre-training phase.png'>   
 Fig. 2. Visualization of the reconstructing results in the pre-training phase.
+
 
 <div align=center>
 <br/><img src='/Figure 3-Qualitative visual comparison of the lane detection results testing on tvtLANE.png'>  
