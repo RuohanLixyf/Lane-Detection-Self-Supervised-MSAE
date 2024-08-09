@@ -11,7 +11,7 @@ In this study, three neural network models, i.e., UNet_ConvLSTM, SCNN_UNet_ConvL
 <br/><img src='/Figure 1-The framework of the proposed pipeline.png'>  
    
 Fig. 1. The framework of the proposed pipeline.
-
+</div>
 
 # Some Results
 <div align=center>
