@@ -1,7 +1,7 @@
 # Robust Lane Detection through Self Pre-training with Masked Sequential Autoencoders and Fine-tuning with Customized PolyLoss
 This is the source code of the paper:
 R. Li and Y. Dong, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," in IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 12, pp. 14121-14132, Dec. 2023, doi: 10.1109/TITS.2023.3305015.
-keywords: {Lane detection; Feature extraction; Neural networks; Image reconstruction; Image segmentation; Self-supervised pre-training; Masked sequential autoencoders; PolyLoss; Deep neural network; Deep learning; Computer vision}
+keywords: {Lane detection;Task analysis;Feature extraction;Neural networks;Image reconstruction;Pipelines;Image segmentation;Lane detection;self pre-training;masked sequential autoencoders;PolyLoss;deep neural network}
 In this document, we provide the dataset and the model description.
 
 # Network Architecture
@@ -13,6 +13,7 @@ Fig. 1. The framework of the proposed pipeline.
 Fig. 2. Visualization of the reconstructing results in the pre-training phase.
  
 Fig. 3. Qualitative visual comparison of the lane detection results testing on tvtLANE test set #1 (normal) (A) and tvtLANE test set #2 (challenging) (B). All results in the figure are without post-processing. (a) Original input images; (b) Ground truth; (c)~(l) are the lane detection results corresponding to the models: (c) SegNet, (d) UNet, (e) SegNet_ConvLSTM [1], (f) UNet_ConvLSTM, (g) UNet_ConvLSTM_CE**, (h) UNet_ConvLSTM_PL**, (i) SCNN_SegNet_ConvLSTM [10], (j) SCNN_UNet_ConvLSTM, (k) SCNN_UNet_ConvLSTM_ CE**, (l) SCNN_UNet_ConvLSTM_PL**, (m) SCNN_UNet_Attention_PL**. (Note: CE and PL are short for weighted cross entropy loss and PolyLoss respectively, while ** means the model is pre-trained with the proposed self pre-training method.)
+
 # tvtLANE Dataset
 ## Description: (adapted from https://github.com/qinnzou/Robust-Lane-Detection)
 This dataset contains 19383 image sequences for lane detection, and 39460 frames of them are labeled. These images were divided into two parts, a training dataset contains 9548 labeled images and is augmented by four times, and a test dataset has 1268 labeled images. The size of images in this dataset is 128*256 pixels.
