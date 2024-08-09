@@ -2,7 +2,7 @@
 This is the source code of the paper:
 R. Li and Y. Dong, "Robust Lane Detection Through Self Pre-Training With Masked Sequential Autoencoders and Fine-Tuning With Customized PolyLoss," in <var>IEEE Transactions on Intelligent Transportation Systems</var>, vol. 24, no. 12, pp. 14121-14132, Dec. 2023, doi: [10.1109/TITS.2023.3305015](https://ieeexplore.ieee.org/document/10226453).
 
-keywords: {Lane detection;Task analysis;Feature extraction;Neural networks;Image reconstruction;Pipelines;Image segmentation;Lane detection;self pre-training;masked sequential autoencoders;PolyLoss;deep neural network}
+**keywords:** {Lane detection;Task analysis;Feature extraction;Neural networks;Image reconstruction;Pipelines;Image segmentation;Lane detection;self pre-training;masked sequential autoencoders;PolyLoss;deep neural network}
 
 In this document, we provide the dataset and the model description.
 
